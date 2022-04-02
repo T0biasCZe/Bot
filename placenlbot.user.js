@@ -1,16 +1,16 @@
 // ==UserScript==
-// @name         PlaceNL Bot (Czech Edition)
+// @name         PlaceNL Bot (3DS Edition)
 // @namespace    https://github.com/PlaceCZ/Bot
 // @version      4
-// @description  Bot pro PlaceNL, předelán do češtiny
+// @description  Bot for PlaceNL, edited for r/3DS 3DS
 // @author       NoahvdAa
 // @match        https://www.reddit.com/r/place/*
 // @match        https://new.reddit.com/r/place/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
 // @require	     https://cdn.jsdelivr.net/npm/toastify-js
 // @resource     TOASTIFY_CSS https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css
-// @updateURL    https://github.com/PlaceCZ/Bot/raw/master/placenlbot.user.js
-// @downloadURL  https://github.com/PlaceCZ/Bot/raw/master/placenlbot.user.js
+// @updateURL    https://github.com/T0biasCZe/Bot/raw/master/placenlbot.user.js
+// @downloadURL  https://github.com/T0biasCZe/Bot/raw/master/placenlbot.user.js
 // @grant        GM_getResourceText
 // @grant        GM_addStyle
 // ==/UserScript==
