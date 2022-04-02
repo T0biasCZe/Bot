@@ -103,7 +103,7 @@ async function attemptPlace() {
 
 	Toastify({
 		text: 'Všechny pixely jsou již na správném místě!',
-		duration: 10000
+		duration: 2500
 	}).showToast();
 	setTimeout(attemptPlace, 5000); // Zkusí to znovu za 30 sekund.
 }
