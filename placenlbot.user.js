@@ -95,7 +95,7 @@ async function attemptPlace() {
 
 		Toastify({
 			text: `Čekání na vychladnutí...`,
-			duration: 315000
+			duration: 305000
 		}).showToast();
 		setTimeout(attemptPlace, 305000); // 5 minut a 05 sekund, jen pro jistotu.
 		return;
@@ -105,7 +105,7 @@ async function attemptPlace() {
 		text: 'Všechny pixely jsou již na správném místě!',
 		duration: 2500
 	}).showToast();
-	setTimeout(attemptPlace, 10000); // Zkusí to znovu za 30 sekund.
+	setTimeout(attemptPlace, 5000); // Zkusí to znovu za 5 sekund.
 }
 
 function updateOrders() {
