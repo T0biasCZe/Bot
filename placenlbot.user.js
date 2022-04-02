@@ -57,7 +57,7 @@ const COLOR_MAPPINGS = {
 		duration: 10000
 	}).showToast();
 
-	setInterval(updateOrders, 30 * 1000); // Aktualizuje příkazy každých pět minut.
+	setInterval(updateOrders, 10 * 1000); // Aktualizuje příkazy každých deset sekund.
 	await updateOrders();
 	attemptPlace();
 })();
