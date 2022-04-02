@@ -109,7 +109,7 @@ async function attemptPlace() {
 }
 
 function updateOrders() {
-	fetch('https://raw.githubusercontent.com/PlaceCZ/Bot/master/orders.json').then(async (response) => {
+	fetch('https://raw.githubusercontent.com/T0biasCZe/Bot/master/orders.json').then(async (response) => {
 		if (!response.ok) return console.warn('Kan orders niet ophalen! (non-ok status code)');
 		const data = await response.json();
 
