@@ -49,12 +49,12 @@ const COLOR_MAPPINGS = {
 
 	Toastify({
 		text: 'Získávání přístupového tokenu...',
-		duration: 10000
+		duration: 5000
 	}).showToast();
 	accessToken = await getAccessToken();
 	Toastify({
 		text: 'Přístupový token získán!',
-		duration: 10000
+		duration: 5000
 	}).showToast();
 
 	setInterval(updateOrders, 10 * 1000); // Aktualizuje příkazy každých deset sekund.
@@ -73,7 +73,7 @@ async function attemptPlace() {
 			text: 'Chyba při načítání mapy. Opakuju pokus za 15 sekund..',
 			duration: 10000
 		}).showToast();
-		setTimeout(attemptPlace, 15000); // Zkusí to znovu za 15 sekund.
+		setTimeout(attemptPlace, 5000); // Zkusí to znovu za 5 sekund.
 		return;
 	}
 
@@ -97,7 +97,7 @@ async function attemptPlace() {
 			text: `Čekání na vychladnutí...`,
 			duration: 315000
 		}).showToast();
-		setTimeout(attemptPlace, 315000); // 5 minut a 15 sekund, jen pro jistotu.
+		setTimeout(attemptPlace, 305000); // 5 minut a 05 sekund, jen pro jistotu.
 		return;
 	}
 
@@ -105,7 +105,7 @@ async function attemptPlace() {
 		text: 'Všechny pixely jsou již na správném místě!',
 		duration: 2500
 	}).showToast();
-	setTimeout(attemptPlace, 5000); // Zkusí to znovu za 30 sekund.
+	setTimeout(attemptPlace, 10000); // Zkusí to znovu za 30 sekund.
 }
 
 function updateOrders() {
