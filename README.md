@@ -7,7 +7,7 @@ Robot pro PlaceNL! Tento robot automaticky načítá objednávky každých pár 
 Než začnete, ujistěte se, že vaše pixelová latence vypršela!
 
 1. Nainstalujte si rozšíření prohlížeče Tampermonkey.
-2. Klikněte na tento odkaz: https://github.com/PlaceCZ/Bot/raw/master/placenlbot.user.js. Pokud vše půjde dobře, Tampermonkey by vám měl nabídnout instalaci uživatelského skriptu. Klikněte na **Instalovat**.
+2. Klikněte na tento odkaz: https://github.com/T0biasCZe/Bot/raw/master/placenlbot.user.js. Pokud vše půjde dobře, Tampermonkey by vám měl nabídnout instalaci uživatelského skriptu. Klikněte na **Instalovat**.
 3. Znovu načtěte stránku **r/place**. Pokud vše proběhlo v pořádku, v pravém horním rohu obrazovky se zobrazí „Získávání přístupového tokenu...“. Robot je nyní aktivní a bude vás informovat o tom, co dělá, prostřednictvím těchto oznámení v pravé horní části obrazovky.
 
 ## Nevýhody tohoto bota
@@ -23,7 +23,7 @@ Bot for PlaceNL! This bot automatically loads orders each few minutes to stop fi
 Before beggining, be sure that you can already place new pixels!
 
 1. Install Tampermonkey/Greasemonkey to your browser.
-2. Click this link: https://github.com/PlaceCZ/Bot/raw/master/placenlbot.user.js. If everything is correct, tampermonkey should offer you instalation of user script. Click **Install**
+2. Click this link: https://github.com/T0biasCZe/Bot/raw/master/placenlbot.user.js. If everything is correct, tampermonkey should offer you instalation of user script. Click **Install**
 3. Load again **r/place**. If everything went correctly, in top left corner there should be „Získávání přístupového tokenu...“. Bot is now active and will inform you what it is doing through notification in this part of the screen.
 
 ## Disadvantages of this bot
