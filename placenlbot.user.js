@@ -70,8 +70,8 @@ async function attemptPlace() {
 	} catch (e) {
 		console.warn('Chyba při načítání mapy: ', e);
 		Toastify({
-			text: 'Chyba při načítání mapy. Opakuju pokus za 15 sekund..',
-			duration: 10000
+			text: 'Error loading map, retrying in 5seconds..',
+			duration: 5000
 		}).showToast();
 		setTimeout(attemptPlace, 5000); // Zkusí to znovu za 5 sekund.
 		return;
@@ -102,7 +102,7 @@ async function attemptPlace() {
 	}
 
 	Toastify({
-		text: 'Všechny pixely jsou již na správném místě!',
+		text: 'All pixels placed/No orders!',
 		duration: 2500
 	}).showToast();
 	setTimeout(attemptPlace, 5000); // Zkusí to znovu za 5 sekund.
