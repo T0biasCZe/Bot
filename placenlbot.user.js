@@ -57,7 +57,7 @@ const COLOR_MAPPINGS = {
 		duration: 10000
 	}).showToast();
 
-	setInterval(updateOrders, 5 * 60 * 1000); // Aktualizuje příkazy každých pět minut.
+	setInterval(updateOrders, 30 * 1000); // Aktualizuje příkazy každých pět minut.
 	await updateOrders();
 	attemptPlace();
 })();
@@ -105,7 +105,7 @@ async function attemptPlace() {
 		text: 'Všechny pixely jsou již na správném místě!',
 		duration: 10000
 	}).showToast();
-	setTimeout(attemptPlace, 30000); // Zkusí to znovu za 30 sekund.
+	setTimeout(attemptPlace, 5000); // Zkusí to znovu za 30 sekund.
 }
 
 function updateOrders() {
