@@ -57,7 +57,7 @@ const COLOR_MAPPINGS = {
 		duration: 5000
 	}).showToast();
 
-	setInterval(updateOrders, 10 * 1000); // Aktualizuje příkazy každých deset sekund.
+	setInterval(updateOrders, 15 * 1000); // Aktualizuje příkazy každých deset sekund.
 	await updateOrders();
 	attemptPlace();
 })();
@@ -71,9 +71,9 @@ async function attemptPlace() {
 		console.warn('Chyba při načítání mapy: ', e);
 		Toastify({
 			text: 'Error loading map, retrying in 5seconds..',
-			duration: 5000
+			duration: 15000
 		}).showToast();
-		setTimeout(attemptPlace, 5000); // Zkusí to znovu za 5 sekund.
+		setTimeout(attemptPlace, 15000); // Zkusí to znovu za 5 sekund.
 		return;
 	}
 
